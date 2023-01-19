@@ -1,0 +1,72 @@
+/* 1- Colors of Gradients -> #a1d3b0 | #f6f1d3 
+2- Header and Footer section background color -> 
+3- Green color of font -> #648880 
+4- Font-family -> Quicksand */
+body {
+    margin: 0;
+}
+
+.header {
+    overflow: auto;
+    margin: 0;
+    padding: 20px;
+    color: #648880;
+    background-color: #293f50;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.left{
+    float: left;
+    
+}
+.right{
+    float: right;
+    text-align: right;
+}
+h2{
+    font-weight: lighter;
+}
+h4{
+    color: white;
+}
+.header h1{
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 0;
+}
+.body h1 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    color: #648880;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+
+
+
+}
+
+.body p{
+    font-size: larger;
+}
+
+.footer {
+    overflow: auto;
+    background-color: #293f50;
+    color: #648880;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+    margin: 0;
+}
+.right p{
+    color: white;
+}
